@@ -22,26 +22,26 @@ h1 {
 
 .species {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping for better responsiveness */
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center; /* Center contents when screen is narrow */
+    justify-content: center;
     padding: 4vh;
     font-size: 2.5vh;
     background-color: antiquewhite;
     border-radius: 30px;
-    margin: 5vh auto; /* Center horizontally with margin auto */
+    margin: 5vh auto;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 90%; /* Make it adapt to screen width */
-    width: 100%; /* Ensure full width within max-width */
-    min-width: 300px; /* Prevent it from getting too small */
+    max-width: 50vw; 
+    width: 100%;
+    min-width: 300px;
 }
 
 .species img {
     width: 30vh;
-    max-width: 100%; /* Make image responsive */
+    max-width: 100%;
     height: auto;
     border-radius: 15px;
-    margin-right: 5vh; /* Adjust for better spacing on smaller screens */
+    margin-right: 5vh;
 }
 
 button {
